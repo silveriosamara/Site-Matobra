@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matobra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #FFB511; /* PANTONE 130C */
+            color: #fff;
+            padding: 15px;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .catalog-category {
+            margin-bottom: 30px;
+        }
+
+        .catalog-category h3 {
+            color: #FFB511;
+        }
+
+        .catalog-category ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .catalog-category ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            margin: 5px 0;
+            display: block;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #FFB511; /* PANTONE 130C */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background-color: #e0a10e;
+        }
+
+        .vr-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .vr-section img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Matobra</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#solutions">Soluções</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#catalogs">Catálogos</a></li>
+                <li><a href="#showroom">Showroom</a></li>
+                <li><a href="#projects">Projetos 3D</a></li>
+                <li><a href="#vr">Sala de Realidade Virtual</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Bem-vindo à Matobra</h2>
+            <p>Presença digital para soluções modernas em construção e design.</p>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Informações sobre a história da Matobra e a nossa missão.</p>
+        </section>
+
+        <section id="solutions">
+            <h2>Soluções</h2>
+            <p>Explore as soluções personalizadas que oferecemos para cada cliente.</p>
+        </section>
+
+        <section id="catalogs">
+            <h2>Catálogos</h2>
+            <div class="catalog-category">
+                <h3>Decoração</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 1</a></li>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 2</a></li>
+                </ul>
+            </div>
+            <div class="catalog-category">
+                <h3>Cozinha</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 1</a></li>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 2</a></li>
+                </ul>
+            </div>
+            <div class="catalog-category">
+                <h3>Casas de Banho</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 1</a></li>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 2</a></li>
+                </ul>
+            </div>
+            <div class="catalog-category">
+                <h3>Cerâmicos</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 1</a></li>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 2</a></li>
+                </ul>
+            </div>
+            <div class="catalog-category">
+                <h3>Madeiras</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 1</a></li>
+                    <li><a href="#" target="_blank">Catálogo de Exemplo 2</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="showroom">
+            <h2>Showroom</h2>
+            <p>O nosso showroom oferece uma experiência imersiva para explorar as nossas soluções. Descubra os materiais, designs e tecnologias disponíveis, com a ajuda dos nossos especialistas.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projetos 3D</h2>
+            <p>Oferecemos um serviço personalizado de criação de projetos 3D para cozinhas, casas de banho e decoração. Agende uma consulta com os nossos designers e veja as suas ideias ganharem vida em 3D.</p>
+        </section>
+
+        <section id="vr">
+            <div class="vr-section">
+                <img src="1.jpg" alt="Sala de Realidade Virtual">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Formulário e informações para entrar em contacto connosco.</p>
+            <form action="#" method="post">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Insira o seu nome completo" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Insira o seu email" required>
+
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Insira o seu telefone (opcional)">
+
+                <label for="project-type">Tipo de Projeto</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="">Selecione o tipo de projeto</option>
+                    <option value="cozinha">Cozinha</option>
+                    <option value="decoracao">Decoração</option>
+                    <option value="casas-de-banho">Casas de Banho</option>
+                </select>
+
+                <label for="date">Data Preferida</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="message">Mensagem Adicional</label>
+                <textarea id="message" name="message" rows="4" placeholder="Escreva uma mensagem (opcional)"></textarea>
+
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Matobra. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
