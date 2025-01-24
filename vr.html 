@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matobra - Home</title>
+    <title>Matobra - Sala de Realidade Virtual</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,15 +18,16 @@
                 <li><a href="catalogs.html">Catálogos</a></li>
                 <li><a href="showroom.html">Showroom</a></li>
                 <li><a href="projects.html">Projetos 3D</a></li>
-                <li><a href="vr.html">Sala de Realidade Virtual</a></li>
+                <li><a href="vr.html" class="active">Sala de Realidade Virtual</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <section id="home">
-            <h2>Bem-vindo à Matobra</h2>
-            <p>Presença digital para soluções modernas em construção e design.</p>
+        <section id="vr">
+            <h2>Sala de Realidade Virtual</h2>
+            <p>Experimente os seus projetos de forma imersiva na nossa sala de realidade virtual. Visualize cada detalhe e sinta como será o resultado final antes mesmo de iniciar a execução.</p>
+            <p>Agende uma visita e mergulhe numa experiência de design completamente inovadora.</p>
         </section>
     </div>
 
@@ -36,3 +37,4 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+
